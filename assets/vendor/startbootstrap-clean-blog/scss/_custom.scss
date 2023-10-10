@@ -1,0 +1,45 @@
+@media only screen and (min-width: 992px) {
+	#mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+		color: $primary;
+	}
+	
+	#mainNav.is-fixed {
+		top: -70px;
+	}
+}
+
+#mainNav {
+	position:fixed;
+}
+
+#mainNav .navbar-brand {
+	color: $primary;
+}
+
+header.masthead .page-heading .subheading {
+	line-height: 1.25;
+}
+
+img.navbar-logo {
+	max-height: 2rem;
+	width: auto;
+}
+
+#mainNav a.active {
+	color: $primary;
+}
+
+header.masthead {
+	background-attachment: fixed;
+}
+
+.section-title {
+	font-size: 3rem;
+	text-align: center;
+	padding: 3rem 0;
+}
+
+.featured-thumbnail {
+	max-width: 100%;
+	margin-bottom: 1.5rem;
+}
