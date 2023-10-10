@@ -13,7 +13,7 @@
 			{% assign class = nil %}
 			{% if page.url == link.url %}
 				{% assign class = 'active' %}
-			{% elsif link.url != site.baseurl and page.url contains link.url %}
+			{% elsif link.url != site.url and page.url contains link.url %}
 				{% assign class = 'active' %}
 			{% else %}
 				{% assign class = nil %}
