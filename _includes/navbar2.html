@@ -15,6 +15,9 @@
 				{% assign class = 'active' %}
 				{% if site.url contains link.url and page.url != site.url %}
 					{% assign class = nil %}
+					{% elsif site.baseurl == link.url and page.url == link.url %}
+						{% assign class = 'active' %}
+					{% else %}
 				{% endif %}
 			{% else %}
 				{% assign class = nil %}
