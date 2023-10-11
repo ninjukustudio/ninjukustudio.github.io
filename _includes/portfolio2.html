@@ -1,0 +1,42 @@
+  <section class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 mx-auto">
+
+        <h1 class="section-title">Portfolio</h1>
+
+        <!-- Home Post List -->
+	  </div>
+	</div>
+	<div class="row">
+        {% for portfolio in site.portfolios | limit: 4 %}
+	  <div class="col-lg-6 col-md-6"}
+        <article class="post-preview">
+		  <img class="featured-thumbnail" src="{{ portfolio.background }}" alt=>
+          <a href="{{ portfolio.url | prepend: site.baseurl | replace: '//', '/' }}">
+            <h2 class="post-title">{{ portfolio.title }}</h2>
+            {% if portfolio.subtitle %}
+            <h3 class="post-subtitle">{{ portfolio.subtitle }}</h3>
+            {% else %}
+            <h3 class="post-subtitle">{{ portfolio.excerpt | strip_html | truncatewords: 15 }}</h3>
+            {% endif %}
+          </a>
+          <p class="post-meta">Posted by
+            {% if portfolio.author %}
+            {{ portfolio.author }}
+            {% else %}
+            {{ site.author }}
+            {% endif %}
+            on
+            {{ portfolio.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=portfolio.content %}            
+          </p>
+        </article>
+	  </div>
+        {% endfor %}
+	</div>
+        <!-- Pager -->
+    <div class="clearfix">
+          <a class="btn btn-primary float-right" href="/portfolio">View All Portfolio &rarr;</a>
+    </div>
+
+  </section>
+  

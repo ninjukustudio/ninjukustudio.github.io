@@ -24,6 +24,9 @@ collections:
   packages:
     title: Packages
     output: true
+  demos:
+    title: Demos
+    output: true
     
 # Social Profiles
 socials:

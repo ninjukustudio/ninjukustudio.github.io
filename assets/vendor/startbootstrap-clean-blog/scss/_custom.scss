@@ -16,6 +16,11 @@
 	color: $primary;
 }
 
+#mainNav .navbar-nav a.nav-link {
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
 header.masthead .page-heading .subheading {
 	line-height: 1.25;
 }
