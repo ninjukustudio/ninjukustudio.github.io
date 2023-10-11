@@ -2,7 +2,7 @@
 layout: post
 title: Kampung Santri
 subtitle: Website
-position: 3
+position: 4
 date: 2023-10-06 08:45:13 +0700
 thumbnail: "/img/website-kampungsantri.jpg"
 background: "/img/bg-kampungsantri.jpg"

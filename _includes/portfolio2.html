@@ -4,14 +4,14 @@
 
         <h1 class="section-title">Portfolio</h1>
 
-        <!-- Home Post List -->
+        <!-- Home Portfolio List -->
 	  </div>
 	</div>
 	<div class="row">
         {% for portfolio in site.portfolios | limit: 4 %}
 	  <div class="col-lg-6 col-md-6"}
         <article class="post-preview">
-		  <img class="featured-thumbnail" src="{{ portfolio.background }}" alt=>
+		  <img class="featured-thumbnail" src="{{ portfolio.thumbnail }}" alt=>
           <a href="{{ portfolio.url | prepend: site.baseurl | replace: '//', '/' }}">
             <h2 class="post-title">{{ portfolio.title }}</h2>
             {% if portfolio.subtitle %}
@@ -27,7 +27,7 @@
             {{ site.author }}
             {% endif %}
             on
-            {{ portfolio.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=portfolio.content %}            
+            {{ portfolio.date | date: '%B %d, %Y' }} <!-- &middot; {% include read_time.html content=portfolio.content %} -->        
           </p>
         </article>
 	  </div>
@@ -35,7 +35,7 @@
 	</div>
         <!-- Pager -->
     <div class="clearfix">
-          <a class="btn btn-primary float-right" href="/portfolio">View All Portfolio &rarr;</a>
+          <a class="btn btn-primary float-right" href="/portfolios">View All Portfolio &rarr;</a>
     </div>
 
   </section>

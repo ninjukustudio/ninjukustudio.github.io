@@ -1,0 +1,27 @@
+---
+layout: page-fluid
+---
+{% for portfolio in site.portfolios %}
+	<div class="col-lg-3 col-md-6 col-sm-12">
+		<article class="post-preview">
+		  <img class="featured-thumbnail" src="{{ portfolio.thumbnail }}" alt=>
+		  <a href="{{ portfolio.url | prepend: site.baseurl | replace: '//', '/' }}">
+			<h2 class="post-title">{{ portfolio.title }}</h2>
+			{% if portfolio.subtitle %}
+			<h3 class="post-subtitle">{{ portfolio.subtitle }}</h3>
+			{% else %}
+			<h3 class="post-subtitle">{{ portfolio.excerpt | strip_html | truncatewords: 15 }}</h3>
+			{% endif %}
+		  </a>
+		  <p class="post-meta">Posted by
+			{% if portfolio.author %}
+			{{ portfolio.author }}
+			{% else %}
+			{{ site.author }}
+			{% endif %}
+			on
+			{{ portfolio.date | date: '%B %d, %Y' }}            
+		  </p>
+		</article>
+	</div>
+{% endfor %}
