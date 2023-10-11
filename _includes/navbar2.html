@@ -10,14 +10,10 @@
       <ul class="navbar-nav ml-auto">
 	  {% assign links = site.data.nav %}
 		{% for link in links %}
-			{% assign class = nil %}
 			{% if page.url contains link.url %}
 				{% assign class = 'active' %}
-				{% if site.url contains link.url and page.url != site.url %}
+				{% if site.url contains link.url and page.url != link.url %}
 					{% assign class = nil %}
-					{% elsif site.baseurl == link.url and page.url == link.url %}
-						{% assign class = 'active' %}
-					{% else %}
 				{% endif %}
 			{% else %}
 				{% assign class = nil %}
