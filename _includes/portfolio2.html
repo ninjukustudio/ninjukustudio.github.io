@@ -8,7 +8,7 @@
 	  </div>
 	</div>
 	<div class="row">
-        {% for portfolio in site.portfolios | limit: 4 %}
+        {% for portfolio in site.portfolios | sort: date | reverse | limit: 4 %}
 	  <div class="col-lg-6 col-md-6"}
         <article class="post-preview">
 		  <img class="featured-thumbnail" src="{{ portfolio.thumbnail }}" alt=>
@@ -20,15 +20,15 @@
             <h3 class="post-subtitle">{{ portfolio.excerpt | strip_html | truncatewords: 15 }}</h3>
             {% endif %}
           </a>
-          <p class="post-meta">Posted by
+          <!--p class="post-meta">Posted by
             {% if portfolio.author %}
             {{ portfolio.author }}
             {% else %}
             {{ site.author }}
             {% endif %}
             on
-            {{ portfolio.date | date: '%B %d, %Y' }} <!-- &middot; {% include read_time.html content=portfolio.content %} -->        
-          </p>
+            {{ portfolio.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=portfolio.content %}
+          </p-->
         </article>
 	  </div>
         {% endfor %}

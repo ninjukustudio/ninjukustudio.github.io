@@ -14,4 +14,4 @@ background: "/img/bg-kampungsantri.jpg"
 For our client [Pesantren Kampung Santri](https://kampungsantri.or.id), we developed their school profile website from the ground up using Jekyll as the site's engine and the Agency Bootstrap theme as the parent theme.
 
 # What Our Client Said
-> Our website had been in an "under construction" state for so many years until we met Ninjuku Studio and their amazing team of developers. Since we are a thriving religious school serving a select few students coming from various economic backgrounds, we had a rigorously specific set of demands for our website and Ninjuku Studio patiently handled every single one of these demands with care.
+> Our website had been in an "under construction" state for so many years until we met Ninjuku Studio and their amazing team of developers. Since we are a thriving religious school serving a select few students coming from various backgrounds, we had a rigorously specific set of demands for our website and Ninjuku Studio patiently handled every single one of these demands with care.

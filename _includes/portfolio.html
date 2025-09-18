@@ -8,7 +8,7 @@
 	  </div>
 	</div>
 	<div class="row">
-        {% for post in site.posts | where: "type", "portfolio" | limit: 4 %}
+        {% for post in site.posts | where: "type", "portfolio" | sort: 'date' | reverse | limit: 4 %}
 	  <div class="col-lg-6 col-md-6"}
         <article class="post-preview">
 		  <img class="featured-thumbnail" src="{{ post.background }}" alt=>

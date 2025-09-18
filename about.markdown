@@ -1,12 +1,14 @@
 ---
 layout: page
-title: About Me
-description: This is what I do.
+title: About Us
+description: This is what we do.
 background: '/img/bg-about.jpg'
 ---
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quisquam ut perspiciatis, repudiandae nulla animi iste vel, praesentium repellendus molestias aliquid consequatur, earum rem qui error voluptates eius enim consequuntur!</p>
+<p><em>Connecting dots. Composing lines.</em></p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex alias, earum consectetur quia natus ducimus voluptate explicabo, hic porro reprehenderit, quasi? Tenetur ipsum distinctio laboriosam perspiciatis officiis dolore, architecto id.</p>
+<p>These phrases are our core philosophy. Dots and lines are, on one hand, fundamental objects of geometry. On the other hand, dots and lines also appear in a whole lot of other fields, ranging from literature to marketing & business.</p>
 
-<p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam inventore aspernatur repellendus incidunt adipisci modi voluptates recusandae iste eligendi, repudiandae corporis quod aut, optio! Explicabo quaerat unde voluptatem! Itaque, eum!</p>
+<p>Dots and lines are fundamental objects of human literacy, including brand literacy. We treat every project with utmost meticulosity, down to its dots and lines. We believe that every inch of placement has its own meaning and may spark different interpretation depending on what's being placed. That's why we take a great care of each and every detail along the development of projects our clients entrusted us with.</p>
+
+<p>Would you join them too?</p>
