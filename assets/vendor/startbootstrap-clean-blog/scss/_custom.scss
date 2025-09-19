@@ -8,6 +8,10 @@
 	}
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 #mainNav {
 	position:fixed;
 }
@@ -36,6 +40,15 @@ img.navbar-logo {
 
 header.masthead {
 	background-attachment: fixed;
+}
+
+.post-title {
+	margin-bottom: 0;
+}
+
+.post-subtitle {
+	font-weight: 400;
+	font-style: italic;
 }
 
 .section-title {

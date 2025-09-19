@@ -12,3 +12,10 @@ background: '/img/bg-about.jpg'
 <p>Dots and lines are fundamental objects of human literacy, including brand literacy. We treat every project with utmost meticulosity, down to its dots and lines. We believe that every inch of placement has its own meaning and may spark different interpretation depending on what's being placed. That's why we take a great care of each and every detail along the development of projects our clients entrusted us with.</p>
 
 <p>Would you join them too?</p>
+
+## Meet Our Team
+### Chief Designer & Developer
+[Jumaidil Awal](https://ideal1st.github.io/)
+
+### Junior Developer
+[Ahmad A. Jihad](https://freecodecamp.org/nanagenshoku)

@@ -8,7 +8,9 @@
 	  </div>
 	</div>
 	<div class="row">
-        {% for portfolio in site.portfolios | sort: date | reverse | limit: 4 %}
+        {% assign homeporto = site.portfolios | sort: 'position' | reverse %}
+
+        {% for portfolio in homeporto | limit: 4 %}
 	  <div class="col-lg-6 col-md-6"}
         <article class="post-preview">
 		  <img class="featured-thumbnail" src="{{ portfolio.thumbnail }}" alt=>

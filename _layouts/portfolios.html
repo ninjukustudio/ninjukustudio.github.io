@@ -1,7 +1,8 @@
 ---
 layout: page-fluid
 ---
-{% for portfolio in site.portfolios %}
+{% assign porto = site.portfolios | sort: 'date' | reverse %}
+{% for portfolio in porto %}
 	<div class="col-lg-3 col-md-6 col-sm-12">
 		<article class="post-preview">
 		  <img class="featured-thumbnail" src="{{ portfolio.thumbnail }}" alt=>
