@@ -1,4 +1,4 @@
-  <section class="container">
+  <section class="container black">
     <div class="row">
       <div class="col-lg-12 col-md-12 mx-auto">
 
@@ -10,11 +10,11 @@
 	<div class="row">
         {% assign homeporto = site.portfolios | sort: 'position' | reverse %}
 
-        {% for portfolio in homeporto | limit: 4 %}
-	  <div class="col-lg-6 col-md-6"}
+        {% for portfolio in homeporto | limit: 6 %}
+	  <div class="col-lg-6 col-md-6">
         <article class="post-preview">
-		  <img class="featured-thumbnail" src="{{ portfolio.thumbnail }}" alt=>
           <a href="{{ portfolio.url | prepend: site.baseurl | replace: '//', '/' }}">
+            <img class="featured-thumbnail" src="{{ portfolio.thumbnail }}" alt="{{ portfolio.subtitle}} of {{ portfolio.title}}">
             <h2 class="post-title">{{ portfolio.title }}</h2>
             {% if portfolio.subtitle %}
             <h3 class="post-subtitle">{{ portfolio.subtitle }}</h3>

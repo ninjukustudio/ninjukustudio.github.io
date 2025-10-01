@@ -1,0 +1,42 @@
+  <section class="container white">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 mx-auto">
+
+        <h1 class="section-title">Services</h1>
+
+        <!-- Home Services List -->
+	  </div>
+	</div>
+	<div class="row">
+        {% for service in site.services | limit: 3 %}
+	  <div class="col-lg-4 col-md-6">
+        <article class="post-preview">
+          <a href="{{ service.url | prepend: site.baseurl | replace: '//', '/' }}">
+            <em class="service-icon fa-solid fa-{{ service.icon }}">&nbsp;</em>
+            <h2 class="post-title">{{ service.title }}</h2>
+            {% if service.subtitle %}
+            <h3 class="post-subtitle">{{ service.subtitle }}</h3>
+            {% else %}
+            <h3 class="post-subtitle">{{ service.excerpt | strip_html | truncatewords: 15 }}</h3>
+            {% endif %}
+          </a>
+          <!--p class="post-meta">Posted by
+            {% if service.author %}
+            {{ service.author }}
+            {% else %}
+            {{ site.author }}
+            {% endif %}
+            on
+            {{ service.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=service.content %}
+          </p-->
+        </article>
+	  </div>
+        {% endfor %}
+	</div>
+        <!-- Pager -->
+    <div class="clearfix">
+          <a class="btn btn-primary float-right" href="/services">View All Services &rarr;</a>
+    </div>
+
+  </section>
+  

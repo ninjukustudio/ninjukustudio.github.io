@@ -58,6 +58,94 @@ header.masthead {
 }
 
 .featured-thumbnail {
-	max-width: 100%;
+	width: 100%;
+	max-height: 128px;
 	margin-bottom: 1.5rem;
+	overflow-y: hidden;
+	object-fit: cover;
+}
+
+.container.white {
+	margin-left: 0;
+	margin-right: 0;
+	background: #fff;
+	max-width: 100%;
+	padding: 3% 6%;
+}
+
+.container.teal {
+	margin-left: 0;
+	margin-right: 0;
+	background: #00d4bc;
+	max-width: 100%;
+	padding: 3% 6%;
+}
+
+.container.teal a:hover{
+	color: #fff;
+}
+
+.container.grey {
+	margin-left: 0;
+	margin-right: 0;
+	background: #bcbcbc;
+	max-width: 100%;
+	padding: 3% 6%;
+}
+
+.container.grey a:hover{
+	color: #00d4bc;
+}
+
+.container.black {
+	margin-left: 0;
+	margin-right: 0;
+	background: #212529;
+	color: #00d4bc;
+	max-width: 100%;
+	padding: 3% 6%;
+}
+
+.container.black a {
+	color: #00d4bc;
+}
+
+.container.black a:hover {
+	color: #bcbcbc;
+}
+
+.container.black a.btn {
+	color: #fff;
+}
+
+.post-preview {
+	padding-bottom: 24px;
+}
+
+.service-icon {
+	width:33%;
+	height: auto;
+	font-size: 54px;
+	padding: 1rem;
+	float: left;
+	text-align: center;
+}
+
+table {
+	border: #bcbcbc solid 1px;
+	margin-bottom: 36px;
+}
+
+tr {
+	border-bottom: #bcbcbc solid 1px;
+}
+
+thead {
+	color: #fff;
+	background: #00d4bc;
+}
+
+th, td {
+	padding: 8px;
+	vertical-align: top;
 }
