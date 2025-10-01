@@ -36,3 +36,5 @@ We are designers who understand code and developers who value brand. This means 
 # Ready to Cast Your Spell?
 
 Stop blending in and start standing out. Let's magically build the website that truly represents your brand.
+
+<a class="btn btn-primary" href="https://wa.me/6285787706533?text=Hello, Ninjuku Studio.">Build My Web</a>
