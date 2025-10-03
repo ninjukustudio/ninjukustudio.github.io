@@ -1,20 +1,20 @@
 ---
 layout: post
-title: Asset Alchemy
+title: Asset Assembly
 subtitle: "custom brand & marketing collaterals"
 position: 3
 date: 2025-09-30 08:45:13 +0700
-icon: staff-snake
+icon: burger
 background: "/img/bg-asset-alchemy.jpg"
 active: true
 ---
 # The Power of Consistent Touchpoints
 
-Once your brand identity is defined ([Brand Brewery](/services/brand-brewery.html)) and your core digital platform is established ([Web Wizardry](/services/web-wizardry.html)), **Asset Alchemy** ensures that every piece of physical and digital marketing material reflects your professional quality.
+Once your brand identity is defined ([Brand Brewery](/services/brand-brewery.html)) and your core digital platform is established ([Web Wizardry](/services/web-wizardry.html)), **Asset Assembly** ensures that every piece of physical and digital marketing material reflects your professional quality.
 
-This service is about taking your core visual assets and transforming them (*alchemy*) into communicative tools that are consistent, memorable, and production-ready—from business cards to corporate e-books.
+This service is about taking your core visual assets and harmonizing them (*assembly*) into communicative tools that are consistent, memorable, and production-ready—from business cards to corporate e-books.
 
-# The Alchemist’s Toolkit
+# The Assembler's Toolkit
 We focus on designing functional assets that are prepared for production (print or digital). We ensure color consistency (CMYK/RGB) and high resolution across all formats.
 
 | Asset Category | Example Output |
@@ -23,9 +23,9 @@ We focus on designing functional assets that are prepared for production (print 
 | **Stationery & Corporate Identity** | Custom design for business cards, letterheads, envelopes, ID cards, and stamps, essential for professionals and organizations. |
 | **Social Media Assets** | Reusable social media content templates, social media headers, and a comprehensive brand kit for your online profiles. |
 
-# Why Choose Ninjuku’s Asset Alchemy?
+# Why Choose Ninjuku’s Asset Assembly?
 
-The quality of your assets reflects the quality of your services or product. Asset Alchemy eliminates the risk of inconsistency that can damage a carefully built brand image. We ensure your designs:
+The quality of your assets reflects the quality of your services or product. Asset Assembly eliminates the risk of inconsistency that can damage a carefully built brand image. We ensure your designs:
 
 - **Work Across All Media**: From the smallest screen to the largest print run.
 
@@ -33,8 +33,8 @@ The quality of your assets reflects the quality of your services or product. Ass
 
 - **Boost Credibility**: Provide a unified and professional appearance that instills trust in your audience.
 
-# Ready to Commence Your Transmutation?
+# Ready to Orchestrate Your Assets?
 
-Stop blending in and start standing out. Let's develop brand assets that truly transforms your performance.
+Stop blending in and start standing out. Let's develop brand assets that truly amplify your performance.
 
 <a class="btn btn-primary" href="https://wa.me/6285787706533?text=Hello, Ninjuku Studio.">Boost My Assets</a>

@@ -35,7 +35,7 @@ socials:
   - network: instagram
     url: https://instagram.com/ninjukustudio
   - network: envelope
-    url: mailto:ninjuku.desu@gmail.com
+    url: mailto:sensei@ninjuku.studio
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 

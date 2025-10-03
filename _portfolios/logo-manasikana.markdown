@@ -2,7 +2,7 @@
 layout: post
 title: Manasikana
 subtitle: Logo Design
-position: 2
+position: 3
 date: 2020-02-23 09:45:13 +0700
 thumbnail: "/img/logo-manasikana.png"
 background: "/img/bg-manasikana.jpg"

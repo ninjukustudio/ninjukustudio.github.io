@@ -2,7 +2,7 @@
 layout: post
 title: Samarinda International Journal of Islamic Studies (SIJIS)
 subtitle: Open Journal Systems (OJS) Theme
-position: 5
+position: 6
 date: 2025-07-06 08:45:13 +0700
 thumbnail: "/img/ojs-theme-sijis.jpg"
 background: "/img/bg-sijis.png"

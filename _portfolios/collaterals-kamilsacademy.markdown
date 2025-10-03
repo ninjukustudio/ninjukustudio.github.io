@@ -2,7 +2,7 @@
 layout: post
 title: Kamil's Academy 2022
 subtitle: Digital Collaterals
-position: 3
+position: 4
 date: 2022-07-15 08:45:13 +0700
 thumbnail: "/img/collaterals-kamilsacad.png"
 background: "/img/bg-kamilsacad.jpg"
