@@ -1,8 +1,10 @@
 title:              Ninjuku Studio
 email:              sensei@ninjuku.studio
-description:        A Web Development Studio Specializing in Low-Cost Company Profile Sites
+description:        A Brand Design & Web Development Studio Tailoring Digital Presence for Professionals, Organizations, Schools, Businesses, and Events
 author:             Ninjuku Sensei
 baseurl:            "/"
+phone:              6285787706533
+message:            "Hello, Ninjuku Studio."
 
 # Collections
 collections:
@@ -34,14 +36,18 @@ socials:
     url: https://github.com/ninjukustudio
   - network: instagram
     url: https://instagram.com/ninjukustudio
+  - network: f
+    url: https://www.fiverr.com/ninjuku
   - network: envelope
     url: mailto:sensei@ninjuku.studio
+  - network: whatsapp
+    url: https://wa.me/6285787706533
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
 # Build settings
-markdown:           kramdown
-paginate:           5
+markdown: kramdown
+paginate: 5
 paginate_path: "/posts/page:num/"
 plugins:
   - jekyll-feed

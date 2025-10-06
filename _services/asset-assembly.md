@@ -4,7 +4,7 @@ title: Asset Assembly
 subtitle: "custom brand & marketing collaterals"
 position: 3
 date: 2025-09-30 08:45:13 +0700
-icon: burger
+icon: screwdriver-wrench
 background: "/img/bg-asset-alchemy.jpg"
 active: true
 ---
@@ -37,4 +37,4 @@ The quality of your assets reflects the quality of your services or product. Ass
 
 Stop blending in and start standing out. Let's develop brand assets that truly amplify your performance.
 
-<a class="btn btn-primary" href="https://wa.me/6285787706533?text=Hello, Ninjuku Studio.">Boost My Assets</a>
+<a class="btn btn-primary" href="https://wa.me/{{ site.phone }}?text={{ site.message }}">Boost My Assets</a>

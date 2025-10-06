@@ -5,15 +5,15 @@ layout: page-fluid
 {% for service in serve %}
 	<div class="col-lg-4 col-md-6 col-sm-12">
 		<article class="post-preview">
-            <a href="{{ service.url | prepend: site.baseurl | replace: '//', '/' }}">
-            <em class="service-icon fa-solid fa-{{ service.icon }}">&nbsp;</em>
-            <h2 class="post-title">{{ service.title }}</h2>
-            {% if service.subtitle %}
-            <h3 class="post-subtitle">{{ service.subtitle }}</h3>
-            {% else %}
-            <h3 class="post-subtitle">{{ service.excerpt | strip_html | truncatewords: 15 }}</h3>
-            {% endif %}
-          </a>
-        </article>
+      <a href="{{ service.url | prepend: site.baseurl | replace: '//', '/' }}">
+        <em class="service-icon fa-solid fa-{{ service.icon }}">&nbsp;</em>
+        <h2 class="post-title">{{ service.title }}</h2>
+        {% if service.subtitle %}
+        <h3 class="post-subtitle">{{ service.subtitle }}</h3>
+        {% else %}
+        <h3 class="post-subtitle">{{ service.excerpt | strip_html | truncatewords: 15 }}</h3>
+        {% endif %}
+      </a>
+    </article>
 	</div>
 {% endfor %}

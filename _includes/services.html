@@ -20,15 +20,6 @@
             <h3 class="post-subtitle">{{ service.excerpt | strip_html | truncatewords: 15 }}</h3>
             {% endif %}
           </a>
-          <!--p class="post-meta">Posted by
-            {% if service.author %}
-            {{ service.author }}
-            {% else %}
-            {{ site.author }}
-            {% endif %}
-            on
-            {{ service.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=service.content %}
-          </p-->
         </article>
 	  </div>
         {% endfor %}

@@ -1,6 +1,6 @@
 ---
 layout: home2
-title: Ninjuku Studio
+title: Hello
 description: "A Brand Design & Web Development Studio Tailoring Digital Presence for"
 background: "/img/bg-home3.jpg"
 cta: Get a Quote
