@@ -7,6 +7,38 @@ date: 2025-09-28 08:45:13 +0700
 icon: mug-hot
 background: "/img/bg-brand-brew.jpg"
 active: true
+excerpt: "The Brand Brewery is a comprehensive, end-to-end identity tailoring service, ensuring every touchpoint communicates your core values with precision."
+tiers:
+- title: Affordable
+  price-usd-min: "100"
+  price-usd-max: "500"
+  price-idr-min: "1.600.000"
+  price-idr-max: "8.000.000"
+  items:
+  - title: "primary logo (1 concept)"
+  - title: "basic color palette"
+  - title: "standard typography pairing"
+  - title: "Usage Guide document"
+- title: Business
+  price-usd-min: "700"
+  price-usd-max: "1,100"
+  price-idr-min: "11.200.000"
+  price-idr-max: "17.600.000"
+  items:
+  - title: "all Affordable + secondary logo"
+  - title: "Brand Strategy Outline (about 9 pages)"
+  - title: "Brief Brand Guidelines (about 15 pages)"
+  - title: "2 revision rounds"
+- title: Corporate
+  price-usd-min: "1,300"
+  price-usd-max: "1,900"
+  price-idr-min: "20.800.000"
+  price-idr-max: "30.400.000"
+  items:
+  - title: "all Business + 3-hour Strategy Workshop (covering your brand's visual, verbal, value, and vibe identities)"
+  - title: "Brand Foundation Document"
+  - title: "Complete Brand Guidelines (50+ pages)"
+  - title: "premium typography pairing"
 ---
 # More Than a Logo. It's Your Identity.
 

@@ -7,6 +7,39 @@ date: 2025-09-29 08:45:13 +0700
 icon: wand-sparkles
 background: "/img/bg-web-whiz.jpg"
 active: true
+excerpt: "Every Web Wizardry project is built with user experience (UX) and speed in mind. We ensure your website is robust, easily managed, and scalable for future growth."
+tiers:
+- title: Affordable
+  price-usd-min: "300"
+  price-usd-max: "600"
+  price-idr-min: "4.800.000"
+  price-idr-max: "9.600.000"
+  items:
+  - title: "landing page design & development (1 page)"
+  - title: "mobile responsive"
+  - title: "basic contact form integration"
+- title: Business
+  price-usd-min: "900"
+  price-usd-max: "1,800"
+  price-idr-min: "14.400.000"
+  price-idr-max: "28.800.000"
+  items:
+  - title: "all Affordable + up to 9 more pages"
+  - title: "full CMS setup (e.g., WordPress, Pages CMS, OJS, etc.)"
+  - title: "standard SEO enhancement"
+  - title: "30 days of post-launch bugfix support"
+- title: Corporate
+  price-usd-min: "2,100"
+  price-usd-max: "3,600"
+  price-idr-min: "33.600.000"
+  price-idr-max: "57.600.000"
+  items:
+  - title: "all Business + up to 15 more pages"
+  - title: "UI/UX wireframing & prototyping"
+  - title: "multi-user backend support"
+  - title: "e-commerce or complex integration"
+  - title: "basic training session (45 minutes)"
+  - title: "60 more days of post-launch bugfix support"
 ---
 # The Bridge Between Brand and Business
 

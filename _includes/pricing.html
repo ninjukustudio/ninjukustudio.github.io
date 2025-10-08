@@ -1,0 +1,38 @@
+  <section class="container grey">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 mx-auto">
+
+        <h1 class="section-title">Pricing</h1>
+
+        <!-- Home Services List -->
+	  </div>
+	</div>
+    {% for service in site.services | where: 'active', true | limit: 3 %}
+	<div class="row service-pricing">
+        <div class="service-pricing-title col-lg-12 col-md-12">
+            <h2 class="service-title"><em class="fa-solid fa-{{ service.icon }}">&nbsp;</em> {{ service.title }}</h2>
+        </div>
+        {% for tier in service.tiers | limit: 3 %}
+            <div class="tier-col col-lg-4 col-md-12">
+                <article class="post-preview">
+                <div class="post-summary-toggle">
+                    <h3 class="post-meta"><strong>{{ tier.title }}</strong></h3>
+                    <p class="post-meta">around ${{ tier.price-usd-min }} to ${{ tier.price-usd-max }} <em>(sekitar Rp {{ tier.price-idr-min }} sampai Rp {{ tier.price-idr-max }})</em></p>
+                </div>
+                {% if tier.items %}
+                <div class="post-excerpt-content">
+                    <ul class="tier-item-list">
+                        {% for item in tier.items %}
+                        <li>{{ item.title }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+                </details>
+                </article>
+            </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+  </section>
+  

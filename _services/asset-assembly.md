@@ -7,15 +7,50 @@ date: 2025-09-30 08:45:13 +0700
 icon: screwdriver-wrench
 background: "/img/bg-asset-alchemy.jpg"
 active: true
+excerpt: "Our Asset Assembly service is about taking your core visual assets and harmonizing them into communicative tools that are consistent, memorable, and production-ready—from business cards to corporate e-books."
+tiers:
+- title: Affordable
+  price-usd-min: "50"
+  price-usd-max: "250"
+  price-idr-min: "800.000"
+  price-idr-max: "4.000.000"
+  items:
+  - title: "business card design"
+  - title: "letterhead design"
+  - title: "email signature design"
+  - title: "rubber stamp"
+  - title: "print-ready PDFs"
+- title: Business
+  price-usd-min: "350"
+  price-usd-max: "550"
+  price-idr-min: "5.600.000"
+  price-idr-max: "8.800.000"
+  items:
+  - title: "all Affordable + up to 5 core collateral designs (e.g., flyer, poster, brochure, etc.)"
+  - title: "merchandise/souvenir designs (up to 5)"
+  - title: "organized asset folder structure"
+  - title: "Vendor Requirements Document"
+- title: Corporate
+  price-usd-min: "650"
+  price-usd-max: "1,000"
+  price-idr-min: "10.400.000"
+  price-idr-max: "16.000.000"
+  items:
+  - title: "all Business + up to 15 marketing assets"
+  - title: "outfit/uniform designs (up to 5)"
+  - title: "brand asset library setup (e.g., Brand Kit on Canva, Library Templates on Pitch, etc.)"
+  - title: "vendor print consultation"
+  - title: "30 days of revision/mod/tweak support"
 ---
 # The Power of Consistent Touchpoints
 
 Once your brand identity is defined ([Brand Brewery](/services/brand-brewery.html)) and your core digital platform is established ([Web Wizardry](/services/web-wizardry.html)), **Asset Assembly** ensures that every piece of physical and digital marketing material reflects your professional quality.
 
-This service is about taking your core visual assets and harmonizing them (*assembly*) into communicative tools that are consistent, memorable, and production-ready—from business cards to corporate e-books.
+We focus on designing functional assets that are prepared for production (print or digital). We ensure color consistency (CMYK/RGB) and high resolution across all formats.
 
 # The Assembler's Toolkit
-We focus on designing functional assets that are prepared for production (print or digital). We ensure color consistency (CMYK/RGB) and high resolution across all formats.
+
+This service is about taking your core visual assets and harmonizing them (*assembly*) into communicative tools that are consistent, memorable, and production-ready—from business cards to corporate e-books.
 
 | Asset Category | Example Output |
 | ------------ | ----------------------------------------------- |
