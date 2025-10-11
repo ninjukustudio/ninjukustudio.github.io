@@ -171,7 +171,11 @@ details > summary::-webkit-details-marker {
 
 .tier-col {
 	padding: 12px;
-	border: #212529 dashed 1px;
+	border: #212529 dashed 0px;
+}
+
+.affordable-col, .corporate-col {
+	background: #dddddd;
 }
 
 table {

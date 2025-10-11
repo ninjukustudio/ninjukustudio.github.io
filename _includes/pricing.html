@@ -13,22 +13,38 @@
             <h2 class="service-title"><em class="fa-solid fa-{{ service.icon }}">&nbsp;</em> {{ service.title }}</h2>
         </div>
         {% for tier in service.tiers | limit: 3 %}
-            <div class="tier-col col-lg-4 col-md-12">
+            <div class="tier-col {{ tier.class }}-col col-lg-4 col-md-12">
                 <article class="post-preview">
-                <div class="post-summary-toggle">
-                    <h3 class="post-meta"><strong>{{ tier.title }}</strong></h3>
-                    <p class="post-meta">around ${{ tier.price-usd-min }} to ${{ tier.price-usd-max }} <em>(sekitar Rp {{ tier.price-idr-min }} sampai Rp {{ tier.price-idr-max }})</em></p>
-                </div>
-                {% if tier.items %}
-                <div class="post-excerpt-content">
-                    <ul class="tier-item-list">
-                        {% for item in tier.items %}
-                        <li>{{ item.title }}</li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                {% endif %}
-                </details>
+                    <div class="post-summary-toggle">
+                        <h3 class="post-meta"><strong>{{ tier.title }}</strong></h3>
+                        <p class="post-meta">around ${{ tier.price-usd-min }} to ${{ tier.price-usd-max }} <em>(sekitar Rp {{ tier.price-idr-min }} sampai Rp {{ tier.price-idr-max }})</em></p>
+                    </div>
+                    {% if tier.items %}
+                    <div class="post-excerpt-content">
+                        <ul class="tier-item-list">
+                            {% for item in tier.items %}
+                            <li>{{ item.title }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                    {% if tier.examples %}
+                    <div class="post-excerpt-content">
+                        example:
+                            <ul class="tier-item-list">
+                                {% for example in tier.examples %}
+                                <li><a href="/portfolios/{{ example.url }}.html">{{ example.title }}</a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                    </div>
+                    {% endif %}
+                    {% if tier.btn %}
+                    <details>
+                        <summary class="post-meta">{{ tier.bait }} <em>(click me)</em></summary>
+                        <a class="btn btn-primary" href="https://wa.me/{{ site.phone }}/?text={{ tier.msg }}">{{ tier.btn }}</a></summary>
+                    </details>
+                    {% endif %}
                 </article>
             </div>
         {% endfor %}

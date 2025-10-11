@@ -10,6 +10,7 @@ active: true
 excerpt: "Every Web Wizardry project is built with user experience (UX) and speed in mind. We ensure your website is robust, easily managed, and scalable for future growth."
 tiers:
 - title: Affordable
+  class: affordable
   price-usd-min: "300"
   price-usd-max: "600"
   price-idr-min: "4.800.000"
@@ -18,17 +19,28 @@ tiers:
   - title: "landing page design & development (1 page)"
   - title: "mobile responsive"
   - title: "basic contact form integration"
-- title: Business
+  bait: "Want a landing page?"
+  btn: "Make me a landing page"
+  msg: "Hi, Ninjuku Studio. I need a landing page website."
+- title: "🏅 Business (most popular)"
+  class: business
   price-usd-min: "900"
   price-usd-max: "1,800"
   price-idr-min: "14.400.000"
   price-idr-max: "28.800.000"
+  examples:
+  - title: "Kampung Santri's website"
+    url: website-kampungsantri
   items:
   - title: "all Affordable + up to 9 more pages"
   - title: "full CMS setup (e.g., WordPress, Pages CMS, OJS, etc.)"
   - title: "standard SEO enhancement"
   - title: "30 days of post-launch bugfix support"
+  bait: "Need a company profile site instead?"
+  btn: "Build me a full-fledged website"
+  msg: "Hi, Ninjuku Studio. I need a company profile site."
 - title: Corporate
+  class: corporate
   price-usd-min: "2,100"
   price-usd-max: "3,600"
   price-idr-min: "33.600.000"
@@ -40,6 +52,9 @@ tiers:
   - title: "e-commerce or complex integration"
   - title: "basic training session (45 minutes)"
   - title: "60 more days of post-launch bugfix support"
+  bait: "A web app's what you want?"
+  btn: "Give me a web app"
+  msg: "Hi, Ninjuku Studio. I need a custom web app."
 ---
 # The Bridge Between Brand and Business
 

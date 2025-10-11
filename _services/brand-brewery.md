@@ -9,17 +9,25 @@ background: "/img/bg-brand-brew.jpg"
 active: true
 excerpt: "The Brand Brewery is a comprehensive, end-to-end identity tailoring service, ensuring every touchpoint communicates your core values with precision."
 tiers:
-- title: Affordable
+- title: "🏅 Affordable (most popular)"
+  class: affordable
   price-usd-min: "100"
   price-usd-max: "500"
   price-idr-min: "1.600.000"
   price-idr-max: "8.000.000"
+  examples:
+  - title: "Manasikana's logo"
+    url: logo-manasikana    
   items:
   - title: "primary logo (1 concept)"
   - title: "basic color palette"
   - title: "standard typography pairing"
   - title: "Usage Guide document"
+  bait: "Want a logo?"
+  btn: "Make me a logo"
+  msg: "Hi, Ninjuku Studio. I want a custom logo."
 - title: Business
+  class: business
   price-usd-min: "700"
   price-usd-max: "1,100"
   price-idr-min: "11.200.000"
@@ -27,9 +35,13 @@ tiers:
   items:
   - title: "all Affordable + secondary logo"
   - title: "Brand Strategy Outline (about 9 pages)"
-  - title: "Brief Brand Guidelines (about 15 pages)"
+  - title: "Brief Brand Guideline (about 15 pages)"
   - title: "2 revision rounds"
+  bait: "Need a brand instead?"
+  btn: "Build me a brand"
+  msg: "Hi, Ninjuku Studio. I need a brand that works."
 - title: Corporate
+  class: corporate
   price-usd-min: "1,300"
   price-usd-max: "1,900"
   price-idr-min: "20.800.000"
@@ -37,8 +49,12 @@ tiers:
   items:
   - title: "all Business + 3-hour Strategy Workshop (covering your brand's visual, verbal, value, and vibe identities)"
   - title: "Brand Foundation Document"
-  - title: "Complete Brand Guidelines (50+ pages)"
+  - title: "Complete Brand Guidelines (30+ pages)"
   - title: "premium typography pairing"
+  - title: "3 revision rounds"
+  bait: "Premium is your thing?"
+  btn: "Give me your best"
+  msg: "Hi, Ninjuku Studio. I want a complete identity system."
 ---
 # More Than a Logo. It's Your Identity.
 
