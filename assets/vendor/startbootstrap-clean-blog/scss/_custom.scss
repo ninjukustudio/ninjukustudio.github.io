@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 @media only screen and (min-width: 992px) {
 	#mainNav .navbar-nav > li.nav-item > a.nav-link.active {
 		color: $primary;
@@ -42,6 +46,10 @@ header.masthead {
 	background-attachment: fixed;
 }
 
+header.home-masthead {
+    margin-bottom: 0;
+}
+
 .post-title {
 	margin-bottom: 0;
 }
@@ -51,12 +59,64 @@ header.masthead {
 	font-style: italic;
 }
 
+.post-summary-toggle::marker {
+	text-align: end !important;
+}
+
+.post-excerpt-content {
+	display: flex;
+}
+
+.about-excerpt {
+	text-align: center;
+	font-weight: 400;
+	font-style: italic;
+	padding-bottom: 24px;
+}
+
+.member-title {
+	font-size: 36px;
+	text-align: center;
+}
+
+.member-col {
+	text-align: center;
+}
+
+.member-col h3 {
+	margin-top: 24px;
+	margin-bottom: 0;
+}
+
+.member-col h4 {
+	font-style: normal;
+	font-weight: 400;
+}
+
+.member-img {
+	max-width: 20%;
+	height: auto;
+}
+
 details > summary {
 	list-style: none;
+	display: block;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
 }
 
 details > summary::-webkit-details-marker {
 	display: none;
+}
+
+details > summary > h3::after {
+	content: '▾';
+	transition: transform 0.2s ease;
+}
+
+details[open] > summary > h3::after {
+	transform: rotate(90deg);
 }
 
 .section-title {

@@ -1,8 +1,8 @@
 <!-- Page Header -->
 {% if page.background %}
-<header id="hello" class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+<header id="hello" class="home-masthead masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
   {% else %}
-  <header class="masthead">
+  <header class="home-masthead masthead">
     {% endif %}
     <div class="overlay"></div>
     <div class="container">

@@ -5,7 +5,7 @@ subtitle: "high-value, high-impact à la carte service"
 position: 4
 date: 2025-10-03 08:45:13 +0700
 icon: cart-shopping
-background: "/img/bg-asset-alchemy.jpg"
+background: "/img/bg-brand-clarity.jpg"
 active: false
 ---
 # Need Strategic Direction *Before* You Build?

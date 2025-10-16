@@ -1,8 +1,10 @@
 - title: Studio
-  url: "/"
+  url: "/#hello"
 - title: About
-  url: "/about"
+  url: "/#about"
 - title: Services
-  url: "/services"
+  url: "/#services"
+- title: Pricing
+  url: "/#pricing"
 - title: Portfolios
-  url: "/portfolios"
+  url: "/#portfolios"

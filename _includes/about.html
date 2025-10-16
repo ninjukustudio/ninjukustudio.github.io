@@ -1,0 +1,45 @@
+<section id="about" class="container black">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 mx-auto">
+
+      <h1 class="section-title">About</h1>
+
+      <!-- Home Services List -->
+  </div>
+</div>
+<div class="row">
+      {% for page in site.pages | where: 'title', 'About Us' | limit: 1 %}
+  <div class="col-lg-12 col-md-12">
+        <details class="post-preview">
+            <summary class="post-summary-toggle">
+            {% if page.excerpt %}
+            <h3 class="about-excerpt">{{ page.excerpt }}</h3>
+            {% endif %}
+            </summary>
+            {% if page.members %}
+            <div class="col-lg-12 col-md-12 mx-auto">
+                <h4 class="member-title">Meet the Team</h1>
+            </div>
+            <div class="post-excerpt-content row col-lg-12 col-md-12">
+                {% for member in page.members %}
+                <div class="member-col col-lg-6 col-md-12">
+                    <img class="member-img" src="{{ member.img | prepend: site.baseurl | replace: '//', '/' }}"/>
+                    <h3>{{ member.name }}</h3>
+                    <h4>{{ member.role }}</h4>
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+            <a class="btn btn-primary float-right" href="{{ page.url | prepend: site.baseurl | replace: '//', '/' }}">Read More</a>
+        </details>
+    </div>
+      {% endfor %}
+</div>
+      <!-- Pager -->
+  {% assign activeserve = site.services | where: 'active', true %}
+  {% if activeserve.size > 3 %}
+  <div class="clearfix">
+        <a class="btn btn-primary float-right" href="/services">View All Services &rarr;</a>
+  </div>
+  {% endif %}
+</section>

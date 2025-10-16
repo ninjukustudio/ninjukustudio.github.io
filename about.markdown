@@ -2,7 +2,15 @@
 layout: page
 title: About Us
 description: Architects of Integrated Digital Presence
-background: '/img/bg-about.jpg'
+background: "/img/bg-about.jpg"
+excerpt: "Ninjuku Studio is where strategic brand design meets robust web engineering. We are an independent studio dedicated to crafting and deploying complete digital identities for any kind of endeavor: careers, schools, businesses, events, you name it."
+members:
+- name: Jumaidil Awal
+  role: Studio Director
+  img: "/img/profile-aidil.png"
+- name: Ahmad A. Jihad
+  role: Front-End Developer
+  img: "/img/profile-ahmad.png"
 ---
 
 **Ninjuku Studio is where strategic brand design meets robust web engineering.** We are an independent studio dedicated to crafting and deploying complete digital identities for professionals, organizations, and growing businesses.
@@ -29,16 +37,16 @@ We offer a complete suite of services that work together to build, launch, and s
 | -------------- | ----- | ------------ |
 | <em class="fa-solid fa-mug-hot"></em> Brand Brewery | Custom Brand Strategy & Identity | Strategic Logo Design, Visual Identity System, Brand Voice, and Comprehensive Brand Guidelines. |
 | <em class="fa-solid fa-wand-sparkles"></em> Web Wizardry | Design & Development Engineering | Custom Website Development, UX/UI Design, Performance Optimization, and Specialized Platform Builds (e.g., OJS Themes). |
-| <em class="fa-solid fa-staff-snake"></em> Asset Alchemy | Consistent Collateral & Stationery | Production-Ready Marketing Materials, Corporate Stationery, Social Media Templates, and Professional Digital Assets. |
+| <em class="fa-solid fa-screwdriver-wrench"></em> Asset Assembly | Consistent Collateral & Stationery | Production-Ready Marketing Materials, Corporate Stationery, Social Media Templates, and Professional Digital Assets. |
 
 ## Meet Our Team
 
 When you partner with Ninjuku Studio, you work directly with the team responsible for both the design strategy *and* the technical implementation, ensuring a streamlined and collaborative project experience.
 
-### Chief Designer & Developer
+### Studio Director
 [Jumaidil Awal](https://ideal1st.github.io/)
 
-### Junior Developer
+### Front-End Developer
 [Ahmad A. Jihad](https://freecodecamp.org/nanagenshoku)
 
 Ready to build a digital presence where your brand, your web platform, and your assets work in perfect harmony?
