@@ -17,7 +17,7 @@
                 <article class="post-preview">
                     <div class="post-summary-toggle">
                         <h3 class="post-meta"><strong>{{ tier.title }}</strong></h3>
-                        <p class="post-meta">around ${{ tier.price-usd-min }} to ${{ tier.price-usd-max }} <em>(sekitar Rp {{ tier.price-idr-min }} sampai Rp {{ tier.price-idr-max }})</em></p>
+                        <p class="post-meta">${{ tier.price-usd-min }} <em>(Rp {{ tier.price-idr-min }})</em></p>
                     </div>
                     {% if tier.items %}
                     <div class="post-excerpt-content">
