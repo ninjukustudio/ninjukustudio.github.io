@@ -8,3 +8,5 @@
   url: "/#pricing"
 - title: Portfolios
   url: "/#portfolios"
+- title: Shop
+  url: "{{ site.shopurl }}"
