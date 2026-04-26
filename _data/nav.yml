@@ -9,4 +9,4 @@
 - title: Portfolios
   url: "/#portfolios"
 - title: Shop
-  url: "{{ site.shopurl }}"
+  url: "https://shop.ninjuku.studio/"
